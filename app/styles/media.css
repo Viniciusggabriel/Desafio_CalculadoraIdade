@@ -1,0 +1,50 @@
+@import "index.css";
+
+@media screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
+    .container {
+      margin: 0 20px;
+    }
+
+    .container-fluid {
+      padding: 20px;
+      height: 80vh;
+    }
+
+    .inputs {
+      padding: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+    }
+
+    .form-idade {
+      width: 100%;
+    }
+
+    .btn-container {
+      justify-content: center;
+    }
+
+    .msg-container,
+    #msg-result {
+      height: 20vh;
+      padding-bottom: 10px;
+    }
+
+    .msg-year,
+    .msg-moths,
+    .msg-days {
+      font-size: 30px;
+    }
+
+    .flecha {
+      width: 25px;
+    }
+
+    .attribution {
+      font-size: small;
+    }
+  }
+}
